@@ -388,6 +388,13 @@ TBD:01h - Limits on index reads [class: indexread]
 | 13bf - unbalanced splitter, lookahead on lhs, rhs
 | 13ca - balanced splitted
 
+14 Concat/Funnel
+++++++++++++++++
+| 14aa - Ordered concat/funnel, 2 inputs
+| 14ab - Ordered concat/funnel, 8 inputs
+| 14ba - Unordered concat/funnel, 2 inputs
+| 14bb - Unordered concat/funnel, 8 inputs
+
 15 SOAPCALL
 +++++++++++
 | 15aa - Soapcall large number of trivial soapcalls
