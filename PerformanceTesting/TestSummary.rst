@@ -88,6 +88,7 @@ These tests create lots of records, and test how different sources work
 | 01bf - write xml to a disk file, uncompressed
 | 01bg - write variable size to disk, compressed
 | 01bh - write large variable size to disk, compressed
+| 01bi - write very large variable size to disk, compressed
 
 01c - Raw disk read speed [class: diskread]
 -------------------------------------------
@@ -100,6 +101,7 @@ These tests create lots of records, and test how different sources work
 | 01cf - read xml to a disk file, uncompressed
 | 01cg - read variable size from disk, compressed
 | 01ch - read large variable size from disk, compressed
+| 01ci - read very large variable size from disk, compressed
 
 01d - Parallel disk write speed [class: diskread,parallel]
 ----------------------------------------------------------
